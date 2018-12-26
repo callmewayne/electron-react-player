@@ -58,7 +58,8 @@ module:{
                 loader:'style-loader'
             },{
                 loader:'css-loader'
-            },{
+            },
+            {
                 loader:'less-loader',
                 options: {
                     modifyVars: {

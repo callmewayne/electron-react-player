@@ -15,9 +15,9 @@ var mainWnd = null;
 
 function createMainWnd() {
     mainWnd = new BrowserWindow({
-        width: 1022,
+        width: 1071,
         height: 670,
-        icon: 'public/img/app-icon.png',
+        icon: './netcase.ico',
         frame:true
     });
 

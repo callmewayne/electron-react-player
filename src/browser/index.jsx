@@ -4,7 +4,7 @@ import {
     HashRouter as Router,
 } from 'react-router-dom';
 import { Provider } from 'mobx-react'
-import { App } from "./components/app";
+import { App } from "./views/app";
 import "./index.less"
 
 class RootApp extends  React.Component {
